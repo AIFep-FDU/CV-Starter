@@ -142,7 +142,7 @@ class ResNet(nn.Module):
         out = self.linear(out)
         return F.log_softmax(out, dim=-1)
 
-# TODO: 调整模型的架构 分析讨论其他网络设计的表现 注意ResNet内部也需要进行调整 也可直接使用timm中的模型架构。
+# TODO: 调整模型的架构 分析讨论其他网络设计的表现 注意ResNet内部也需要进行调整 也可直接使用timm中的模型架构
 def design_model(num_classes):
     return ResNet(BasicBlock, [2, 2, 2, 2], num_classes)
 
