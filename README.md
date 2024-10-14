@@ -72,7 +72,7 @@ pip install torch torchvision pytorchsummary numpy matplotlib tqdm
 
 
 ### Submission:
-After training your model, you can execute the `python infer.py` script to generate predictions for the 'test_1k' dataset. Simply unzip the output and submit it directly to the [CodaLab Competition](https://codalab.lisn.upsaclay.fr/competitions/20172). 
+After training your model, you can execute the `python infer.py` script to generate predictions for the 'test_1k' dataset. Simply unzip the output and submit it directly to the [CodaLab Competition](https://codalab.lisn.upsaclay.fr/competitions/20340). 
 
 Submit the code along with an experimental report (one page, No involution) to the e-learning platform.
 
